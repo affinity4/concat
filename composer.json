@@ -1,0 +1,20 @@
+{
+    "name": "affinity4/concat",
+    "description": "Concatenate files with PHP. Can be used to concatenate CSS, JS or various files into a new format.",
+    "keywords": ["affinity4", "file", "concat", "concatenate", "concatenation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Watts",
+            "email": "luke@affinity4.ie"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Affinity4\\Concat\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
